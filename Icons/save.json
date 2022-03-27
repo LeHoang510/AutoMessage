@@ -1,0 +1,20 @@
+{
+  "Type": "",
+  "Nom": "Connan",
+  "Prenom": "François",
+  "Regiment": "Grenadiers de Saint-Brieuc",
+  "Nom Mere": "Le Moual Françoise",
+  "Nom Pere": "Loüis",
+  "Indice": "quatrième",
+  "Page": "27",
+  "Gauche/Droite": "gauche",
+  "Noms des Colonnes": "I1\tI2\tI3\tI4\tI5\tClé\tRég.\tRégiment\tCompagnie\tNom\tPrénom\tAutre nom\tSurnom\tGrade\tProfession\t+p\tPrénom père\t+m\tNom mère\tAutre nom mère\tPrénom mère\tAutre prénom mère\tDépt naiss. (C)\tCommune naiss.\tJuridiction naiss.\tRégion naiss.\tPays naiss.\tAge\tAnnée naiss. calculée\tDate naiss.\tPage BMS\tDépt domicile (C)\tCommune domicile\tAnnée\tDépt décès (C)\tCommune décès\tLieu décès\tDate décès\tImage\tPage (gauche/droite)\tIndice\tDépt\tLieu\tDate\n",
+  "Soldat": "6\t4\t4\t3\t2\t0026g4_GSB\tGSB\tGrenadiers de Saint-Brieuc\tDuchenay\tConnan\tFrançois\tConnen\tVivelamour\tanspessade\t\t\tLoüis\t\tLe Moual\tLe Moal\tFrançoise\t\t22\tGoudelin\tGuingamp\tBretagne\t\t26\t1732\t\t\t22\tPommerit-le-Vicomte\t1758\t\t\t\t\tarchives_SHDGR__GR_2_YC_103__0026.JPG\tgauche\t4\n",
+  "Text": "Bonjour,\n\nConnen François, fils Loüis et Le Moal Françoise, est soldat au régiment du Grenadiers de Saint-Brieuc, registre 1 YC 501 du site Mémoire des Hommes, page 27, page de gauche, quatrième soldat...\n\nJe vous donne le permalien allant à la page 27 sélectionner le bon numéro de page :\n\nhttps://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/e005e47abc09777e/5e47abc276f7c\n\nBonne journée.\n\nIvan Leplumey - Rennes",
+  "Registre": "1 YC 501",
+  "json": [
+    "/home/kindred/Project INFO/EtudePratique/App 4/GenerationMessage/pml_1_YC_501.json",
+    "All Files (*)"
+  ],
+  "Permalien": "https://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/e005e47abc09777e/5e47abc276f7c"
+}
