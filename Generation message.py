@@ -31,7 +31,7 @@ class Text(QTextEdit):
 
 # Class App
 class Window(QMainWindow):
-    def __init__(self,saving="save.json",permalien="pml_7_YC_43.json",output=""):
+    def __init__(self,saving="save.json",output=""):
 
         # Input-output management
         if output == "":
@@ -112,7 +112,6 @@ class Window(QMainWindow):
         self.toolBar.addAction(self.actionOpen)
         self.toolBar.addAction(self.actionDelete)
         self.toolBar.addAction(self.actionCopy)
-        # self.toolBar.addAction(self.actionExecute)
         self.toolBar.addSeparator()
         self.toolBar.addAction(self.actionInformations)
         self.toolBar.addSeparator()
@@ -367,16 +366,21 @@ class Window(QMainWindow):
         self.edit["Nom et Prénom Mère"].setText(tableRes['Nom mère']+' '+tableRes['Prénom mère'])
         self.edit["GD"].setCurrentText(tableRes['Page (gauche/droite)'])
         # Other name
-        self.nom=""
         if tableRes['Autre nom']!="":
             self.nom=tableRes['Autre nom']
         else:
             self.nom=tableRes['Nom']
-
-        if tableRes['Autre nom mère']!="":
-            self.nomMere=tableRes['Autre nom mère']+" "+tableRes['Prénom mère']
+        if tableRes['Autre prénom mère']!="":
+            self.prenomMere=tableRes['Autre prénom mère']
         else:
-            self.nomMere=tableRes['Nom mère']+" "+tableRes['Prénom mère']
+            self.prenomMere=tableRes['Prénom mère']
+        if tableRes['Autre nom mère']!="":
+            self.nomMere=tableRes['Autre nom mère']
+        else:
+            self.nomMere=tableRes['Nom mère']
+        self.mere=self.nomMere+" "+self.prenomMere
+
+
         # Get Indice
         indice=tableRes['Indice'].strip("\n")
         self.edit["Indice"].setText(self.indice_to_string(indice))
@@ -454,21 +458,21 @@ class Window(QMainWindow):
         self.text.delete()
         #    self.text.display("Titre du message: \"{} {}, fils {} et {}\"\n\n".format(self.infor["Nom"],self.infor["Prenom"],self.infor["Nom Pere"],self.infor["Nom Mere"]) +
         #        "Corps du message :\n")
-        type=""
+        type = ""
         if self.infor["Type"] != "":
-            type=", votre "+self.infor["Type"]+" semble-t-il"
+            type = ", votre "+self.infor["Type"]+" semble-t-il"
 
-        titre="{} {}, fils {} et {} ".format(self.nom,self.infor["Prénom"],self.infor["Prénom Père"],self.nomMere)
+        titre="{} {}, fils {} et {}".format(self.nom,self.infor["Prénom"],self.infor["Prénom Père"],self.mere)
         self.text.display(
             "Bonjour,\n\n" + titre +"{},".format(type)+
-            "est soldat au régiment du {}, registre {} du site Mémoire des Hommes, ".format(self.infor["Régiment"],self.infor["Registre"]) +
+            " est soldat au régiment du {}, registre {} du site Mémoire des Hommes, ".format(self.infor["Régiment"],self.infor["Registre"]) +
                       "page {}, page de {}, {} soldat...\n\n".format(self.infor["Page"],self.infor["GD"],self.infor["Indice"]) +
                       "Je vous donne le permalien allant à la page {} ".format(self.infor["Page"]) +
                       ":\n\n" +
                       "{}\n\n".format(self.infor["Permalien"]) +
                       "Bonne journée.\n\n" +
                       "Ivan Leplumey - Rennes")
-        pyperclip.copy(titre)
+        pyperclip.copy(self.text.toPlainText())
         '''
         while True:
             if keyboard.is_pressed('ctrl+c'):

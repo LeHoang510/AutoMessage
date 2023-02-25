@@ -1,21 +1,21 @@
 {
   "Type": "cousin",
-  "Nom": "Le Vacon",
+  "Nom": "Cheny",
   "Autre Nom": "",
-  "Prénom": "Josephe",
+  "Prénom": "Nouël",
   "Régiment": "Grenadiers de Saint-Brieuc",
-  "Nom et Prénom Mère": "Leroux Janne",
-  "Prénom Père": "Guillaume",
-  "Indice": "cinquième",
-  "Page": "30",
+  "Nom et Prénom Mère": "Ropert Janne",
+  "Prénom Père": "René",
+  "Indice": "deuxième",
+  "Page": "18",
   "GD": "gauche",
   "Noms des Colonnes": "I1\tI2\tI3\tI4\tI5\tClé\tRég.\tRégiment\tCompagnie\tNom\tPrénom\tAutre nom\tSurnom\tGrade\tProfession\t+p\tPrénom père\t+m\tNom mère\tAutre nom mère\tPrénom mère\tAutre prénom mère\tDépt naiss. (C)\tCommune naiss.\tJuridiction naiss.\tRégion naiss.\tPays naiss.\tAge\tAnnée naiss. calculée\tDate naiss.\tPage BMS\tDépt domicile (C)\tCommune domicile\tAnnée\tDépt décès (C)\tCommune décès\tLieu décès\tDate décès\tImage\tPage (gauche/droite)\tIndice\tDépt\tLieu\tDate\n",
-  "Soldat": "5\t3\t4\t4\t2\t0029g5_GSB\tGSB\tGrenadiers de Saint-Brieuc\tDuchenay\tLe Vacon\tJosephe\t\tLatandresse\tfusilier\t\t\tGuillaume\t\tLeroux\t\tJanne\t\t22\tTréglamus\tGuingamp\tBretagne\t\t22\t1734\t\t\t22\tCoatascorn\t1756\t17\tRé\thopital\t27/3/1760\tarchives_SHDGR__GR_2_YC_103__0029.JPG\tgauche\t5\n",
-  "Text": "Bonjour,\n\nLe Vacon Josephe, fils Guillaume et Leroux Janne , votre cousin semble-t-il,est soldat au régiment du Grenadiers de Saint-Brieuc, registre 1 YC 501 du site Mémoire des Hommes, page 30, page de gauche, cinquième soldat...\n\nJe vous donne le permalien allant à la page 30 :\n\nhttps://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/e005e47abc09777e/5e47abc2aa512\n\nBonne journée.\n\nIvan Leplumey - Rennes",
+  "Soldat": "5\t3\t4\t3\t2\t0017g2_GSB\tGSB\tGrenadiers de Saint-Brieuc\tDe Bedée\tCheny\tNouël\t\tSaint Yves\tfusilier\t\t\tRené\t\tRopert\t\tJanne\t\t22\tLe Quillio\tQuintin\tBretagne\t\t28\t1727\t\t\t22\tPlessala\t1755\t\t\t\t\tarchives_SHDGR__GR_2_YC_103__0017.JPG\tgauche\t2\n",
+  "Text": "Bonjour,\n\nCheny Nouël, fils René et Ropert Janne, votre cousin semble-t-il, est soldat au régiment du Grenadiers de Saint-Brieuc, registre 1 YC 501 du site Mémoire des Hommes, page 18, page de gauche, deuxième soldat...\n\nJe vous donne le permalien allant à la page 18 :\n\nhttps://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/e005e47abc09777e/5e47abc1cdd14\n\nBonne journée.\n\nIvan Leplumey - Rennes",
   "Registre": "1 YC 501",
   "json": [
     "/home/kindred/Project INFO/EtudePratique/App 4/GenerationMessage/pml_1_YC_501.json",
     "All Files (*)"
   ],
-  "Permalien": "https://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/e005e47abc09777e/5e47abc2aa512"
+  "Permalien": "https://www.memoiredeshommes.sga.defense.gouv.fr/fr/ark:/40699/e005e47abc09777e/5e47abc1cdd14"
 }
